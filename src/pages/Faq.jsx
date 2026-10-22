@@ -1,0 +1,2 @@
+import Seo from '../components/Seo.jsx'; import { PageTitle, Accordion, CTA } from '../components/ui.jsx'; import { FAQS } from '../data/faqs.js'
+export default function Faq() { return <><Seo title="FAQ" description="Answers to common questions about working with EgNisher." path="/faq" /><PageTitle title="Frequently Asked Questions" /><section className="sec"><Accordion items={FAQS} /></section><CTA /></> }
